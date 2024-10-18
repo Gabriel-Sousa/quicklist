@@ -1,3 +1,65 @@
 header{
-  
+  margin-top: 2rem;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--color-brand);
+  font: normal 500 0.875rem/1rem var(--ff-inter);
+  margin-bottom: 1rem;
+}
+
+header form{
+  width: 100%;
+}
+
+header form label{
+  color: var(--content-primary);
+  font: normal 700 1.5rem/2rem var(--ff-inter);
+  margin-bottom: 2.75rem;
+  display: block;
+}
+
+header form input{
+  width: 100%;
+  padding: 0.69rem 1.12rem;
+  border-radius: 0.75rem;
+  color: var(--content-primary);
+  font: normal 400 1.5rem/1.4rem var(--ff-inter);
+  border: 2px solid var(--border-primary);
+  outline: 2px solid transparent;
+  margin-bottom: 1rem;
+}
+
+header form input::placeholder{
+  color: var(--content-tertiary);
+}
+
+header form input:hover{
+  border: 2px solid var(--border-hover);
+}
+
+header form input:focus,
+header form input:focus-visible,
+header form input:focus-within{
+  border: 2px solid transparent;
+  outline:2px solid var(--color-brand);
+}
+
+header form button{
+  width: 100%;
+  padding: 0.75rem 1.5rem;
+  font: normal 600 1rem/1.25rem var(--ff-inter);
+  color: var(--always-white);
+  border-radius: 0.75rem;
+  background-color: var(--color-brand);
+  border: transparent;
+  cursor: pointer;
+  transition: background-color 100ms ease-in-out;
+}
+
+header form button:hover{
+  background-color: var(--color-brand-hover);
+  transition: background-color 100ms ease-in-out;
+
 }
