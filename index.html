@@ -18,26 +18,20 @@
     <img src="./assets/logo.svg" alt="" class="desktop-only">
     <a href="#">&lt;- Voltar</a>
     <form>
-      <label for="product">Compras da semana</label>
+      <label for="weekProduct">Compras da semana</label>
       <div class="header-actions">
-        <input type="text" id="product" name="product" placeholder="Adicione um novo item">
-        <button>Adicionar item</button>
+        <input type="text" id="weekProduct" name="product" placeholder="Adicione um novo item">
+        <button id="formButton" disabled="true">Adicionar item</button>
       </div>
     </form>
   </header>
+
   <main class="container">
-    <ul>
-      <li class="item">
-        <div class="checkbox-wrapper">
-          <input type="checkbox">
-          <div class="checkbox-img"></div>
-        </div>
-        <span>Pão de forma</span>
-        <button><img src="./assets/trash.svg" alt="Icon of Trash"></button>
-      </li>
+    <ul id="listProduct">
     </ul>
   </main>
-  <footer class="container">
+
+  <footer id="warning" class="container warning-off">
     <img src="./assets/warning.svg" alt="">
     <span>O item foi removido da lista</span>
     <img src="./assets/delete.svg" alt="">

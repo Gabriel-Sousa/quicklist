@@ -1,12 +1,25 @@
-.container{
-  max-width: 320px;
-  margin-inline: auto;
-}
-
 .desktop-only{
   display: none;
 }
 
+.container{
+  max-width: 280px;
+  margin-inline: auto;
+}
+
+.warning-on{
+  display: flex;
+}
+
+.warning-off{
+  display: none;
+}
+
+@media (width > 20em){ 
+  .container{
+    max-width: 320px;
+  }
+}
 
 @media (width >= 40em){
   .container{

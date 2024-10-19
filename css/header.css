@@ -71,10 +71,19 @@ header form button{
   transition: background-color 100ms ease-in-out;
 }
 
+
 header form button:hover{
   background-color: var(--color-brand-hover);
   transition: background-color 100ms ease-in-out;
 }
+
+header form button:disabled,
+header form button:disabled:hover{
+  cursor: not-allowed;
+  background-color: var(--color-brand);
+  filter: brightness(0.75);
+}
+
 
 @media (width >= 40em) {
  header form .header-actions{

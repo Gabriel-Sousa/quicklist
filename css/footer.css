@@ -10,9 +10,15 @@ footer{
 
 footer span {
   color: var(--always-white);
-  font: normal 600 1rem/1.25rem var(--ff-inter);
+  font: normal 600 0.875rem/1.25rem var(--ff-inter);
 }
 
 footer img:nth-child(3){
   margin-left: auto;
+}
+
+@media (width > 20em){
+  footer span {
+    font: normal 600 1rem/1.25rem var(--ff-inter);
+  }
 }
