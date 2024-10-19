@@ -3,9 +3,17 @@
   margin-inline: auto;
 }
 
+.desktop-only{
+  display: none;
+}
+
 
 @media (width >= 40em){
   .container{
     max-width: 640px;
+  }
+
+  .desktop-only{
+    display: block;
   }
 }
