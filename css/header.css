@@ -39,7 +39,7 @@ header form .header-actions input{
   padding: 0.69rem 1.12rem;
   border-radius: 0.75rem;
   color: var(--content-primary);
-  font: normal 400 1.5rem/1.4rem var(--ff-inter);
+  font: normal 400 1rem/1.4rem var(--ff-inter);
   border: 2px solid var(--border-primary);
   outline: 2px solid transparent;
 }
